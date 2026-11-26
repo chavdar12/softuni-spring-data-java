@@ -1,0 +1,43 @@
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+### Java ###
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/**/out/
+
+### Eclipse / VS Code ###
+.classpath
+.project
+.settings/
+bin/
+!**/src/**/bin/
+.vscode/
+
+### Local config ###
+.env
+application-local.yml
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
